@@ -16,6 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from django_admin_2fa.settings import DEBUG
+
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+if DEBUG:
+    from django_otp.admin import OTPAdminSite
+
+    admin.site.__class__ = OTPAdminSite

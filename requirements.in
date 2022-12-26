@@ -1,2 +1,4 @@
 django
 python-decouple
+django-otp
+qrcode
