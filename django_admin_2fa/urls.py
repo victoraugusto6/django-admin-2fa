@@ -21,7 +21,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
 ]
 
-if DEBUG:
+if not DEBUG:
     from django_otp.admin import OTPAdminSite
 
     admin.site.__class__ = OTPAdminSite
