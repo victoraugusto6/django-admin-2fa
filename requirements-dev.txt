@@ -42,6 +42,8 @@ pytest==7.2.0
     # via pytest-django
 pytest-django==4.5.2
     # via -r requirements-dev.in
+python-decouple==3.6
+    # via -r requirements.txt
 sqlparse==0.4.3
     # via
     #   -r requirements.txt
