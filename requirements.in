@@ -2,3 +2,4 @@ django
 python-decouple
 django-otp
 qrcode
+pre-commit
