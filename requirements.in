@@ -3,3 +3,7 @@ python-decouple
 django-otp
 qrcode
 pre-commit
+whitenoise
+gunicorn
+dj-database-url
+psycopg2-binary

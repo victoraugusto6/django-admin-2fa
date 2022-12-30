@@ -10,14 +10,19 @@ cfgv==3.3.1
     # via pre-commit
 distlib==0.3.6
     # via virtualenv
+dj-database-url==1.2.0
+    # via -r requirements.in
 django==4.1.4
     # via
     #   -r requirements.in
+    #   dj-database-url
     #   django-otp
 django-otp==1.1.4
     # via -r requirements.in
 filelock==3.8.2
     # via virtualenv
+gunicorn==20.1.0
+    # via -r requirements.in
 identify==2.5.11
     # via pre-commit
 nodeenv==1.7.0
@@ -25,6 +30,8 @@ nodeenv==1.7.0
 platformdirs==2.6.0
     # via virtualenv
 pre-commit==2.21.0
+    # via -r requirements.in
+psycopg2-binary==2.9.5
     # via -r requirements.in
 python-decouple==3.6
     # via -r requirements.in
@@ -36,6 +43,8 @@ sqlparse==0.4.3
     # via django
 virtualenv==20.17.1
     # via pre-commit
+whitenoise==6.2.0
+    # via -r requirements.in
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools

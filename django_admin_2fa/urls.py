@@ -18,7 +18,7 @@ from django.urls import path
 from django_admin_2fa.settings import DEBUG
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
+    path("", admin.site.urls),
 ]
 
 if not DEBUG:
