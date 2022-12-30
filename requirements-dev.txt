@@ -22,9 +22,12 @@ distlib==0.3.6
     # via
     #   -r requirements.txt
     #   virtualenv
+dj-database-url==1.2.0
+    # via -r requirements.txt
 django==4.1.4
     # via
     #   -r requirements.txt
+    #   dj-database-url
     #   django-otp
 django-otp==1.1.4
     # via -r requirements.txt
@@ -36,6 +39,8 @@ filelock==3.8.2
     #   virtualenv
 flake8==6.0.0
     # via -r requirements-dev.in
+gunicorn==20.1.0
+    # via -r requirements.txt
 identify==2.5.11
     # via
     #   -r requirements.txt
@@ -63,6 +68,8 @@ platformdirs==2.6.0
 pluggy==1.0.0
     # via pytest
 pre-commit==2.21.0
+    # via -r requirements.txt
+psycopg2-binary==2.9.5
     # via -r requirements.txt
 pycodestyle==2.10.0
     # via flake8
@@ -95,6 +102,8 @@ virtualenv==20.17.1
     #   pre-commit
 wheel==0.38.4
     # via pip-tools
+whitenoise==6.2.0
+    # via -r requirements.txt
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
