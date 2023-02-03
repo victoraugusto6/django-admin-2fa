@@ -24,15 +24,13 @@ distlib==0.3.6
     #   virtualenv
 dj-database-url==1.2.0
     # via -r requirements.txt
-django==4.1.4
+django==4.1.6
     # via
     #   -r requirements.txt
     #   dj-database-url
     #   django-otp
 django-otp==1.1.4
     # via -r requirements.txt
-exceptiongroup==1.1.0
-    # via pytest
 filelock==3.8.2
     # via
     #   -r requirements.txt
@@ -91,11 +89,6 @@ sqlparse==0.4.3
     # via
     #   -r requirements.txt
     #   django
-tomli==2.0.1
-    # via
-    #   build
-    #   pep517
-    #   pytest
 virtualenv==20.17.1
     # via
     #   -r requirements.txt
